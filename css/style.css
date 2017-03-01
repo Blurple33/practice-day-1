@@ -1,0 +1,23 @@
+.block1 {
+  height: 300px;
+  background-color: lightpink;
+  width: 90%;
+}
+
+.block2 {
+  height: 250px;
+  background-color: lightgreen;
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .block1 {
+    background-color: cyan;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .block2 {
+    background-color: darkgrey;
+  }
+}
